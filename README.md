@@ -1,3 +1,11 @@
+## POINTS: 2.0
+## KEY: Great Job overall! Note since we made animal ID unique in our model, we could safely use findOneAndUpdate() as opposed to updateMany(). I didn't dock u points though. Great work.
+
+Model.findOneAndUpdate(conditions, update, options, (error, doc) => {
+  // error: any errors that occurred
+  // doc: the document before updates are applied if `new: false`, or after updates if `new = true`
+});
+
 # Mongo/Mongoose Graded Classwork
 
 ### Exercise 1: Create a Web API for ZOO Animals
